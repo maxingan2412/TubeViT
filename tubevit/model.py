@@ -91,7 +91,7 @@ class SparseTubesTokenizer(nn.Module):
         x = x.permute(0, 2, 1).contiguous()
         return x
 
-
+#可以用在swin试试
 class SelfAttentionPooling(nn.Module):
     """
     Implementation of SelfAttentionPooling
